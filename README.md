@@ -30,6 +30,6 @@ On the remote server, add the file PHP and set the right permissions
 
 ## The cronjob
 ```bash
-# Send every 30 minutes the Ninux topology
-0,30 * * * * /root/send_ninux_topology.sh 2>&1
+# Send every 5 minutes the Ninux topology
+*/5 * * * * /root/send_ninux_topology.sh 2>&1
 ```
