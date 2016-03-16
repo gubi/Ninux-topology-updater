@@ -8,7 +8,7 @@ That's it!
 
 Note that the remote script will receive a simple POST data with `token` and `data` params, whereas:
 * `token` is your sha1 secret key
-* `data` is topology map text
+* `data` is the topology map text
 
 I chose the PHP language for the remote script and the SHA1 as token engine, simply for my convenience, but you can change/configure/extend as you prefer (keep me updated and we will include your integrations in this repo ;) ).
 
